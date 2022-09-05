@@ -1,0 +1,16 @@
+C:\Aditya_Data\Projects\Diamond_Kata\Diamond_Kata\Diamond_Katta\bin\Debug\netcoreapp3.1\Diamond_Katta.exe
+C:\Aditya_Data\Projects\Diamond_Kata\Diamond_Kata\Diamond_Katta\bin\Debug\netcoreapp3.1\Diamond_Katta.deps.json
+C:\Aditya_Data\Projects\Diamond_Kata\Diamond_Kata\Diamond_Katta\bin\Debug\netcoreapp3.1\Diamond_Katta.runtimeconfig.json
+C:\Aditya_Data\Projects\Diamond_Kata\Diamond_Kata\Diamond_Katta\bin\Debug\netcoreapp3.1\Diamond_Katta.runtimeconfig.dev.json
+C:\Aditya_Data\Projects\Diamond_Kata\Diamond_Kata\Diamond_Katta\bin\Debug\netcoreapp3.1\Diamond_Katta.dll
+C:\Aditya_Data\Projects\Diamond_Kata\Diamond_Kata\Diamond_Katta\bin\Debug\netcoreapp3.1\Diamond_Katta.pdb
+C:\Aditya_Data\Projects\Diamond_Kata\Diamond_Kata\Diamond_Katta\bin\Debug\netcoreapp3.1\Diamond_Kata.dll
+C:\Aditya_Data\Projects\Diamond_Kata\Diamond_Kata\Diamond_Katta\bin\Debug\netcoreapp3.1\Diamond_Kata.pdb
+C:\Aditya_Data\Projects\Diamond_Kata\Diamond_Kata\Diamond_Katta\obj\Debug\netcoreapp3.1\Diamond_Katta.csprojAssemblyReference.cache
+C:\Aditya_Data\Projects\Diamond_Kata\Diamond_Kata\Diamond_Katta\obj\Debug\netcoreapp3.1\Diamond_Katta.AssemblyInfoInputs.cache
+C:\Aditya_Data\Projects\Diamond_Kata\Diamond_Kata\Diamond_Katta\obj\Debug\netcoreapp3.1\Diamond_Katta.AssemblyInfo.cs
+C:\Aditya_Data\Projects\Diamond_Kata\Diamond_Kata\Diamond_Katta\obj\Debug\netcoreapp3.1\Diamond_Katta.csproj.CoreCompileInputs.cache
+C:\Aditya_Data\Projects\Diamond_Kata\Diamond_Kata\Diamond_Katta\obj\Debug\netcoreapp3.1\Diamond_Katta.csproj.CopyComplete
+C:\Aditya_Data\Projects\Diamond_Kata\Diamond_Kata\Diamond_Katta\obj\Debug\netcoreapp3.1\Diamond_Katta.dll
+C:\Aditya_Data\Projects\Diamond_Kata\Diamond_Kata\Diamond_Katta\obj\Debug\netcoreapp3.1\Diamond_Katta.pdb
+C:\Aditya_Data\Projects\Diamond_Kata\Diamond_Kata\Diamond_Katta\obj\Debug\netcoreapp3.1\Diamond_Katta.genruntimeconfig.cache

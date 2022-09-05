@@ -1,0 +1,8 @@
+C:\Aditya_Data\Projects\Diamond_Kata\Diamond_Kata\Diamond_Kata\bin\Debug\netstandard2.0\Diamond_Kata.deps.json
+C:\Aditya_Data\Projects\Diamond_Kata\Diamond_Kata\Diamond_Kata\bin\Debug\netstandard2.0\Diamond_Kata.dll
+C:\Aditya_Data\Projects\Diamond_Kata\Diamond_Kata\Diamond_Kata\bin\Debug\netstandard2.0\Diamond_Kata.pdb
+C:\Aditya_Data\Projects\Diamond_Kata\Diamond_Kata\Diamond_Kata\obj\Debug\netstandard2.0\Diamond_Kata.AssemblyInfoInputs.cache
+C:\Aditya_Data\Projects\Diamond_Kata\Diamond_Kata\Diamond_Kata\obj\Debug\netstandard2.0\Diamond_Kata.AssemblyInfo.cs
+C:\Aditya_Data\Projects\Diamond_Kata\Diamond_Kata\Diamond_Kata\obj\Debug\netstandard2.0\Diamond_Kata.csproj.CoreCompileInputs.cache
+C:\Aditya_Data\Projects\Diamond_Kata\Diamond_Kata\Diamond_Kata\obj\Debug\netstandard2.0\Diamond_Kata.dll
+C:\Aditya_Data\Projects\Diamond_Kata\Diamond_Kata\Diamond_Kata\obj\Debug\netstandard2.0\Diamond_Kata.pdb
