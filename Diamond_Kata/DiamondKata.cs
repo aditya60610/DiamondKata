@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 
 namespace Diamond_Kata
 {
@@ -30,9 +29,9 @@ namespace Diamond_Kata
 
                 for (int k = 1; k <= i; k++)
                 {
-                    if (i % 3 == 0 && k == number - 1)
+                    if((i== number) &&  (k !=1 && k!=i))
                     {
-                        result = result + "_ _";
+                     result = char.IsWhiteSpace(result,result.Length-1)? result + "_ _" : result + " _ _ ";
                     }
                     else if (i == number && k == number)
                     {
@@ -46,8 +45,7 @@ namespace Diamond_Kata
                 }
 
                 var resultSpace = CalculateSpace(number, charCounter, result);
-                result = resultSpace.Item2;
-                charCounter = resultSpace.Item1;
+                result = resultSpace;
 
                 result = result + Environment.NewLine;
                 charCounter = 0;
@@ -56,7 +54,7 @@ namespace Diamond_Kata
             return result;
         }
 
-        public string CreateSecondtHalfDiamond(int number, char[] c)
+        public string CreateSecondHalfDiamond(int number, char[] c)
         {
             string result = "";
             int charCounter = 0;
@@ -76,8 +74,7 @@ namespace Diamond_Kata
                 }
 
                 var resultSpace = CalculateSpace(number, charCounter, result);
-                result = resultSpace.Item2;
-                charCounter = resultSpace.Item1;
+                result = resultSpace;
 
                 result = result + Environment.NewLine;
                 charCounter = 0;
@@ -100,22 +97,22 @@ namespace Diamond_Kata
 
             charSequence = CreateSequence(c);
             resultFirstHalfDiamond = CreateFirstHalfDiamond(charSequence.Length, charSequence.ToCharArray());
-            resultSecondHalfDiamond = CreateSecondtHalfDiamond(charSequence.Length, charSequence.ToCharArray());
+            resultSecondHalfDiamond = CreateSecondHalfDiamond(charSequence.Length, charSequence.ToCharArray());
             result = string.Concat(resultFirstHalfDiamond, resultSecondHalfDiamond);
 
             return result;
         }
 
-        private Tuple<int, string> CalculateSpace(int number,int charCount, string result)
+        private string CalculateSpace(int number, int charCount, string result)
         {
             var spaceCount = (number == 1) ? number + 1 : (number % 2 == 0) ? number + 1 : number + 2;
             if (charCount < spaceCount)
             {
                 result = result + "_ ";
-                charCount++;
             }
 
-            return Tuple.Create(charCount, result);
+            return result ;
+
         }
 
     }

@@ -6,7 +6,7 @@ namespace DiamondKataTest
     [TestClass]
     public class DiamondKataTest
     {
-        private DiamondKata _diamondKata;
+        private IDiamondKata _diamondKata;
         public DiamondKataTest()
         {
             _diamondKata = new DiamondKata();
@@ -60,7 +60,7 @@ namespace DiamondKataTest
         public void Result_second_half_diamond_for_a_given_char_sequence_AB()
         {
             var output = "_ A _ \r\n";
-            var result = _diamondKata.CreateSecondtHalfDiamond(2, new[] { 'A', 'B'});
+            var result = _diamondKata.CreateSecondHalfDiamond(2, new[] { 'A', 'B'});
             Assert.AreEqual(output, result);
 
         }
@@ -69,7 +69,7 @@ namespace DiamondKataTest
         public void Result_second_half_diamond_for_a_given_char_sequence_ABC()
         {
             var output = "_ B _ B _ \r\n_ _ A _ _ \r\n";
-            var result = _diamondKata.CreateSecondtHalfDiamond(3, new[] { 'A', 'B', 'C' });
+            var result = _diamondKata.CreateSecondHalfDiamond(3, new[] { 'A', 'B', 'C' });
             Assert.AreEqual(output, result);
 
         }
@@ -97,7 +97,6 @@ namespace DiamondKataTest
             var result = _diamondKata.CreateDiamond('c');
             Assert.AreEqual(output, result);
         }
-
 
         [TestMethod]
         public void Result_Error_as_output_for_given_invalid_input_1()
